@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Analyst Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Alex | Data Analyst</h1>
+    <p>SQL • Python • Power BI • Tableau</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>I analyze data to drive business decisions using dashboards, SQL queries, and Python models.</p>
+</section>
+
+<section>
+<h2>Skills Overview</h2>
+<canvas id="skillsChart"></canvas>
+</section>
+
+<section>
+<h2>Projects</h2>
+<div id="projects"></div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<form action="contact.php" method="POST">
+<input name="name" placeholder="Name" required>
+<input name="email" placeholder="Email" required>
+<textarea name="message" placeholder="Message" required></textarea>
+<button>Send</button>
+</form>
+</section>
+
+<footer>
+<p>© 2025 Data Analyst Portfolio</p>
+</footer>
+
+</body>
+</html>

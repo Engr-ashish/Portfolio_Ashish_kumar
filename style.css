@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f2f4f8;
+}
+
+header {
+    background: linear-gradient(120deg,#0a4d8c,#0f6fd4);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    color: #0a4d8c;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+section {
+    background: white;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {opacity:0; transform: translateY(20px);}
+    to {opacity:1;}
+}
+
+#projects div {
+    background: #eef3f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #0a4d8c;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+button {
+    background: #0a4d8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
